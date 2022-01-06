@@ -1,0 +1,110 @@
+           <!-- Experience -->
+            <div class="row">
+                <div class="col-lg-6 edu-work">
+                    <div class="col-lg-12">
+                        <div class="edu-work-title">
+                            <h2>Education</h2>
+                        </div>
+                    </div>
+                    <!-- Education -->
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="edu-work-inside shadow-2 edu">
+                                <h5>Master of Software Engineering</h5>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <a class="coloured-text link" href="https://www.uwo.ca/" target="_blank">Western University</a>
+                                        <p class="coloured-text link-desc">, London Ontario</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="coloured-text">Sept 2021-Apr 2023</p>
+                                    </div>
+                                </div>
+                                <p>Graduate GPA: 4.0</p>
+                                <p>Undergraduate GPA (best 2 years): 3.5</p>
+                                <Academic Milestones>
+                                    <ul>
+                                        <li>Dean's Honor List (2018, 2020, 2021)</li>
+                                        <li>Internship Year (2019 - 2020)</li>
+                                    </ul>
+                                    <p>Relevant Courses from Undergrad and Graduate Studies:</p>
+                                    <ul>
+                                        <li>Computer Science Fundamentals II (87%)</li>
+                                        <li>Introduction to Digital Image Processing (93%)</li>
+                                        <li>Web Application Development (94%)</li>
+                                        <li>Design of Electronic Systems(88%)</li>
+                                        <li>Capstone Project (87%)</li>
+                                        <li>Data Analytics Foundations (84%)</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Work Experience -->
+                <div class="col-lg-6 edu-work">
+                    <div class="col-lg-12">
+                        <div class="edu-work-title">
+                            <h2>Work Experience</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-12 edu-work-inside shadow-2 ">
+                                <h5>Intern - EMIT Team</h5>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <a class="coloured-text link" href="https://www.ansys.com/" target="_blank">Ansys</a>
+                                        <p class="coloured-text link-desc">, Waterloo Ontario / Remote</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="coloured-text">January 2022-April 2022</p>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>Develop and code features using C++ and fix defects to enhance the product</li>
+                                    <li>Build tools that automate software development/testing infrastructure processes.</li>
+                                    <li>Advance software robustness by testing and verifying defect fixes.</li>
+                                    <li>Conduct interactive and automated testing of user interfaces and simulation results.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 edu-work-inside shadow-2 work">
+                                <h5>Robotics and Controls Specialist</h5>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <a class="coloured-text link" href="https://www.jmpsolutions.com/" target="_blank">JMP Robotics</a>
+                                        <p class="coloured-text link-desc">, London Ontario</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="coloured-text">May 2021-Aug 2021</p>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>Program Allen-Bradley PLC’s, Fanuc robots, HMI’s for custom automation equipment.</li>
+                                    <li>Develop Project Management skills through risk planning, scheduling, and supporting customers.</li>
+                                    <li>Develop code that is organized &interacts with subsystems such as HMI's, conveyors, robots and 3rd party equipment.</li>
+                                    <li>Design aesthetic HMI screens for complex machinery providing feedback for troubleshooting.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-12 edu-work-inside shadow-2 work">
+                                <h5>Intern - Electrical Design Team</h5>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <a class="coloured-text link" href="https://www.hondacanadamfg.ca/" target="_blank">Honda Manufacturing</a>
+                                        <p class="coloured-text link-desc">, Alliston Ontario</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="coloured-text">May 2019-Aug 2020</p>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>Program Mitsubishi/Omron/Rockwell PLC’s, HMI’s, Fanuc Robots and Cognex /iR Vision Systems.</li>
+                                    <li>Designed multiple plant changes to save 66000 CAD/year outside of regular duties (Kaizen).</li>
+                                    <li>Lay out new industrial electrical control and create electrical appropriate electrical schematics.</li>
+                                    <li>Developed Project Management abilites through role as Lead Electrical Designer on multiple projects.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

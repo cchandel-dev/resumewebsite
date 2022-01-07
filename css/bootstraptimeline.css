@@ -416,6 +416,6 @@ body{
     background-color: #eeeeee;
 }
 .carouselimg {
-  width: auto;
-  height: 50%;
+  width: 200px;
+  height: 200px;
 }

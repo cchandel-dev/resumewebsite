@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Chandan Chandel's Software Engineering Portfolio">
+        <title>Chandan Chandel</title>
+        <!-- Favicon -->
+        <link rel="icon" href="static/images/CCicon.png">
+        <!-- Personal Stylesheet-->
+        <link rel="stylesheet" href="static/css/styles.css">
+        <!-- Animate Stylesheet -->
+        <link rel="stylesheet" href="static/css/animate.css">
+        <!-- JQuery (note that Bootstrap depends on JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Bootstrap Timeline CSS -->
+        <link rel="stylesheet" href="static/css/bootstraptimeline.css">
+        <!-- Bootstrap Timeline JS-->
+        <script src="static/js/bootstraptimeline.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <!-- Just an image for the logo in the top left corner -->
+            <a class="navbar-brand" href="#">
+                <img src="static/images/CCicon.png" width="30" height="30" alt="logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link active" href="#">About Me</a>
+                    <a class="nav-item nav-link active" href="#">Experience</a>
+                    <a class="nav-item nav-link active" href="#">Projects</a>
+                    <a class="nav-item nav-link active" href="static/ChandanChandelResume.pdf">Resume</a>
+                </div>
+            </div>
+        </nav>
+        <section class="white-section" id="title">
+            <!-- Title -->
+            <!--Row 0-->
+            <div class="row">
+                <!--Column 0-->
+                <div class="col-md">
+                    <h2>Hi I'm</h2>
+                    <h1>Chandan Chandel</h1>
+                    <h6>Software Engineering Student</h6>
+                    <div>
+                        <a href="https://www.linkedin.com/in/chandan-chandel/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/cchandel-dev" target="_blank">Github</a>
+                        <a href="mailto:cchandel@uwo.ca">
+                            <p class="email">cchandel@uwo.ca</p>
+                        </a>
+                    </div>
+                </div>
+                <!--Column 1-->
+                <div class="col-lg">
+                    <img src="static/images/me.png" alt="my-profile">
+                </div>
+            </div>
+        </section>
+        <section class="darker-section" id="about-me">
+            <!-- About Me -->
+            <h3>About Me</h3>
+            <div class="row">
+                <div class="col-small">
+                    <!-- Carousel of Images will be added right here-->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner carouselimg ">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100 carouselimg " src="static/images/dog.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item carouselimg ">
+                                <img class="d-block w-100 carouselimg " src="static/images/hiking.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item carouselimg ">
+                                <img class="d-block w-100 carouselimg " src="static/images/landscaping.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <!--Giant text block-->
+                <div class="col-lg">
+                    <p>
+                        <b>Extracurricular: Student Representative</b>
+                        <br>
+                        I took a leadership role as the Representative to the Undergraduate Engineering Society during my second year of Undergrad.
+                        In this role I represented approximately 100 students and voted in their interest after carefully hearing and considering new bills set forth to the UES.<br>
+                        <br>
+                        <b>Extracurricular: Research Assistant</b>
+                        <br>
+                        I was an active team member as I participated in summer research with the Organic Mechatronics And Smart Materials Laboratory. The goal was to develop a saliva melatonin
+                        concentration measurement solution for portable applications. Throughout the summer I generated code for PIC microcontrollers in C, and I debugged and tested the solution 
+                        using an Arduino operating in C++.<br>
+                        <br>
+                        <b>General</b>
+                        <br>I am an avid builder and love to apply my knowledge in useful and beautiful works. I actively look for interesting 
+                        technologies and brilliant applications to understand in-depth and apply in future works that I produce. This extends
+                        past Software Engineering and into other aspects of my life such as Home Renos and Maintenance. I have built a stone patio,
+                        fence, garden beds and assisted in the installation of toilets. In my spare time, I love to go hiking either by myself or my dog Raja!
+                    </p>
+                    <p>"The comfort zone is a beautiful place, but nothing ever grows there."</p>
+                </div>
+            </div>
+        </section>
+        <section class="white-section" id="experiences">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="cd-horizontal-timeline loaded">
+                                    <div class="timeline">
+                                        <div class="events-wrapper">
+                                            <div class="events" style="width: 1000px;">
+                                                <ol>
+                                                    <li>
+                                                        <a href="#0" data-date="01/01/2014" class="older-event">Jun 2017</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#0" data-date="01/11/2016" class="older-event">Mar 2018</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#0" data-date="01/10/2018" class="older-event">May 2019</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#0" data-date="01/10/2020" class="selected">Apr 2021</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#0" data-date="01/07/2023">May 2021</a>
+                                                    </li>
+                                                    <!--             <li>
+                                                        <a href="#0" data-date="01/06/2025" >Jan 2022</a>
+                                                    </li>
+                                         -->
+                                                    <li>
+                                                        <a href="#0" data-date="01/01/2028">Apr 2023</a>
+                                                    </li>
+                                                </ol>
+                                                <span class="filling-line" aria-hidden="true" style="transform: scaleX(0.25);"></span>
+                                            </div>
+                                            <!-- .events -->
+                                        </div>
+                                        <!-- .events-wrapper -->
+                                        <ul class="cd-timeline-navigation">
+                                            <li>
+                                                <a href="#0" class="prev inactive">Prev</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" class="next">Next</a>
+                                            </li>
+                                        </ul>
+                                        <!-- .cd-timeline-navigation -->
+                                    </div>
+                                    <!-- .timeline -->
+                                    <div class="events-content" style="height: 225px;">
+                                        <ol>
+                                            <li class="" data-date="01/01/2014">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/nokeekwe.jpg">
+                                                    Nokee Kwe<br>
+                                                    <small>June, 2017</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    Goal: Improve throughput rate of non-profit employment/education services.<br>
+                                                    − Identify and reassess KPI's to highlight areas that could use improvement.<br>
+                                                    − Understand ideal business model and day-to-day real business practices.<br>
+                                                    − Present and illustrate inefficiencies in business practices.<br>
+                                                </p>
+                                            </li>
+                                            <li data-date="01/11/2016" class="">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/rp4k.jpg">
+                                                    <b>RP4K</b>
+                                                    <br>
+                                                    <small>March, 2018</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    − Tutor students in Java, C#, C++, Python, VB and Unity.<br>
+                                                    − Assist and guide students through the construction of several video games of varying difficulty.<br>
+                                                    − Troubleshooting errors for students and instructing them in better programming practices to avoid making similar mistakes.<br>
+                                                </p>
+                                            </li>
+                                            <li data-date="01/10/2018" class="selected">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/Honda_logo.png">
+                                                    <b>Honda Internship</b>
+                                                    <br>
+                                                    <small>May, 2019</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    − Trusted as Lead Electrical Designer for multiple medium-large automation 
+                                                    <!--a href="{{ url_for('static', filename='HondaInternshipReport.pdf') }}" data-date="01/06/2025">
+                                                        <u>projects</u>
+                                                    </a-->
+                                                    .<br>
+                                                    − Managed multiple small projects and arranged parts acquisition.<br>
+                                                    − Proposed and followed through on multiple plant changes to save cost/reduce downtime worth over 66000 CAD/year outside of regular design duties.<br>
+                                                </p>
+                                            </li>
+                                            <li data-date="01/10/2020">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/WesternIcon.jpg">
+                                                    <b>Undergraduate Studies Completion Date</b>
+                                                    <br>
+                                                    <small>April, 2021</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    <b>GPA: 3.5</b>
+                                                    in the final two years<br>
+                                                    Undergraduate courses 
+                                                    <a href="assets/UndergraduateGPAScale">
+                                                        <u>GPA SCALE</u>
+                                                    </a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Relevant Courses:</b>
+                                                    <br>
+                                                    Computer Science Fundamentals II (87%)<br>
+                                                    Design of Electronic Systems (88%)<br>
+                                                    Electronic Circuits (88%)<br>
+                                                    Microprocessors &Microcomputers (81%)<br>
+                                                    Digital Communications Systems (82%)<br>
+                                                    Networking (78%)<br>
+                                                    Introduction to Digital Image Processing (93%)<br>
+                                                    Capstone Project (87%)<br>
+                                                </p>
+                                            </li>
+                                            <li data-date="01/07/2023">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/JMPicon.jpg">
+                                                    <b>JMP</b>
+                                                    <br>
+                                                    <small>May, 2021</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    − Program Allen-Bradley PLC’s, Fanuc robots, HMI’s for custom automation equipment.<br>
+                                                    − Develop Project Management skills through risk planning, scheduling, and supporting customers.<br>
+                                                    − Develop code that is organized &interacts with subsystems such as HMI's, conveyors, robots and 3rd party equipment.<br>
+                                                    − Design aesthetic HMI screens for complex machinery providing feedback for troubleshooting.<br>
+                                                </p>
+                                            </li>
+                                            <!--li data-date="01/06/2025">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="assets/images/WesternIcon.jpg">
+                                                    <b>Ansys</b><br>
+                                                    <small>Jan, 2022</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                   − Develop and <b>code</b> small features using C++ and fix defects to enhance the product<br>
+                                                   − Advance software robustness by testing and verifying defect fixes.<br>
+                                                   − Conduct interactive and automated testing of user interfaces and simulation results.<br>
+                                                   − Build tools that automate software development/testing infrastructure processes.<br>
+                                                   − Learn and employ best software practices.<br>
+                                                </p>
+                                            </li-->
+                                            <li data-date="01/01/2028">
+                                                <h4>
+                                                    <img class="rounded float-left m-r-15" width="50" alt="user" src="static/images/WesternIcon.jpg">
+                                                    <b>Prospective Graduate Studies Completion Date</b>
+                                                    <br>
+                                                    <small>April, 2023</small>
+                                                </h4>
+                                                <hr>
+                                                <p>
+                                                    <b>GPA: 4.0</b>
+                                                    as of 2022-01-07<br>
+                                                    Graduate courses 
+                                                    <a href="assets/GraduateGPAScale">
+                                                        <u>GPA SCALE</u>
+                                                    </a>
+                                                    <br>
+                                                    <br>
+                                                    <b>Relevant Courses:</b>
+                                                    <br>
+                                                    Web Application Development (94%)<br>
+                                                    Data Analytics Foundations (84%)<br>
+                                                    Data Management &Application (84%)<br>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="darker-section" id="projects">
+            <!-- Projects -->
+            <h3>Projects</h3>
+            <div class="projects-container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3">
+                        <a href="https://github.com/cchandel-dev/Fetal_Health_Classification" target="_blank">
+                            <img class="project-image shadow-1 zoom" src="static/images/fetus.png" alt="fetus-logo">
+                        </a>
+                        <h4 class="project-title">Fetal Health Classifier</h4>
+                        <p>A program built from convolutional neural networks using the ensemble learning technique to combine a deep neural network along with multiple traditional machinery
+                learning algorithms such as SVM, Decision Trees, Random Forest, KNN &Naive Bayes. The constituent outputs vote to select a resulting output for the overall system.
+                Future improvments to this projects will include an easy to use and free web page for any medical professional or concerned parent to use.
+                </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://github.com/cchandel-dev/InteractiveStockDataViewerWebdev" target="_blank">
+                            <img class="project-image shadow-1 zoom" src="static/images/stockviewer.png" alt="stockviewer-logo">
+                        </a>
+                        <h4 class="project-title">Stock Data Viewer</h4>
+                        <p>A webpage which allows the user to select a stock to grab historic stock price data for and then use the D3 library to visualize the price on any given day and
+                 to focus on specific time frames. Future improvments to this project will include the ability to grab any NASADAQ listed equity.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://github.com/cchandel-dev/StockActivityAlertWebscraper" target="_blank">
+                            <img class="project-image shadow-1 zoom" src="static/images/equityalert.png" alt="smsalert-logo">
+                        </a>
+                        <h4 class="project-title">Stock Activity SMS Alert</h4>
+                        <p>When a stock breaks a support or resistance, a text message is sent to my phone over SMS, useful for day traders. The texts will come at a max rate of 1 per 30 mins</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://github.com/cchandel-dev/TicTacToe/tree/main/src" target="_blank">
+                            <img class="project-image shadow-1 zoom" src="static/images/tictactoe.png" alt="androidapp-logo">
+                        </a>
+                        <h4 class="project-title">Android Tic Tac Toe</h4>
+                        <p>An Android app which allows two users to play Tic Tac Toe against one another. Used Java and XML to design the UI and functionality. Future improvments to this project 
+                will include placing this app on the Google Play Store and using Firebase to authenticate users.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://github.com/hadeelelmadhoon/iTravel" target="_blank">
+                            <img class="project-image shadow-1 zoom" src="static/images/CCicon.png" alt="icon-logo">
+                        </a>
+                        <h4 class="project-title">This Website</h4>
+                        <p>Used HTML, CSS, Javascript, Bootstrap, JQuery and Python(Flask, Chatbot, etc) - especially interesting in this project was learning how to use Bootstrap.
+                   The Python Chatbot allowed me to use NLP to intelligently respond to questions and provide instant feedback to users.
+                </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="white-section" id="projects">
+            <!-- Chatbot -->
+            <h1 class="jumbotron text-center">AI Chatbot with Python</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 offset-sm-3">
+                        <div id="chatbox" class="border border-success">
+                            <p class="botText">
+                                <span>Hi! I'm Chatterbot</span>
+                            </p>
+                        </div>
+                        <div id="userInput">
+                            <input id="textInput" class="form-control" type="text" name="msg" placeholder="Type Your Message Here">
+                            <input id="buttonInput" class="btn btn-success form-control" type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function getResponse() {
+                        let userText = $("#textInput").val();
+                        let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
+                        $("#textInput").val("");
+                        $("#chatbox").append(userHtml);
+                        document.getElementById('userInput').scrollIntoView({
+                            block: 'start',
+                            behavior: 'smooth'
+                        });
+                        $.get("/get", {
+                            msg: userText
+                        }).done(function(data) {
+                            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+                            $("#chatbox").append(botHtml);
+                            document.getElementById('userInput').scrollIntoView({
+                                block: 'start',
+                                behavior: 'smooth'
+                            });
+                        });
+                    }
+                    $("#textInput").keypress(function(e) {
+                        //if enter key is pressed
+                        if (e.which == 13) {
+                            getResponse();
+                        }
+                    });
+                    $("#buttonInput").click(function() {
+                        getResponse();
+                    });
+                </script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            </div>
+        </section>
+        <script src="js/index.js" charset="utf-8"></script>
+    </body>
+</html>

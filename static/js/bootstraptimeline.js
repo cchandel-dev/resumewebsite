@@ -229,10 +229,12 @@ jQuery(document).ready(function($){
 
 	function minLapse(dates) {
 		//determine the minimum distance among events
+		dist = (dates[dates.length-1] - dates[0])/15
+
 		var dateDistances = [];
 		for (i = 1; i < dates.length; i++) { 
 		    var distance = daydiff(dates[i-1], dates[i]);
-		    dateDistances.push(distance);
+		    dateDistances.push(dist);
 		}
 		return Math.min.apply(null, dateDistances);
 	}

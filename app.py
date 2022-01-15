@@ -10,17 +10,25 @@ bot = ChatBot('Buddy')
 # Inport ListTrainer
 from chatterbot.trainers import ListTrainer
 
+
 trainer = ListTrainer(bot)
+
 
 trainer.train([
 'Hi',
 'Hello',
-'I need your assistance regarding my order',
-'Please, Provide me with your order id',
-'I have a complaint.',
-'Please elaborate, your concern',
-'How long it will take to receive an order ?',
-'An order takes 3-5 Business days to get delivered.',
+'When will Chandan be available to start working?',
+'Chandan is available for an internship in the summer/fall of 2022 & for full time employment in May 2023.',
+'How can I contact Chandan?',
+'Please email Chandan at cchandel@uwo.ca',
+'Is Chandan looking for an internship or a job right now?',
+'Chandan is actively searching for internships at this point in time.',
+'Where can I find Chandan resume?',
+'There is a link available in the Nav bar',
+'Where is Chandan CV?',
+'There is a link available in the Nav bar',
+'Where is Chandan resume?',
+'There is a link available in the Nav bar',
 'Okay Thanks',
 'No Problem! Have a Good Day!'
 ])
@@ -37,64 +45,3 @@ def get_bot_response():
 
 if __name__ == "__main__":
     app.run()
-
-
-    
-"""
-#imports
-from flask import Flask, render_template, request
-from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
-
-app = Flask(__name__)
-#create chatbot
-englishBot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
-trainer = ChatterBotCorpusTrainer(englishBot)
-trainer.train("chatterbot.corpus.english") #train the chatter bot for english
-
-
-
-
-
-
-from flask import Flask
-app = Flask(__name__)
-
-# Importing chatterbot
-from chatterbot import ChatBot
- 
-# Create object of ChatBot class with Logic Adapter
-bot = ChatBot('Buddy')
-
-# Inport ListTrainer
-from chatterbot.trainers import ListTrainer
-
-trainer = ListTrainer(bot)
-
-trainer.train([
-'Hi',
-'Hello',
-'I need your assistance regarding my order',
-'Please, Provide me with your order id',
-'I have a complaint.',
-'Please elaborate, your concern',
-'How long it will take to receive an order ?',
-'An order takes 3-5 Business days to get delivered.',
-'Okay Thanks',
-'No Problem! Have a Good Day!'
-])
-
-@app.route("/get")
-#function for the bot response
-def get_bot_response():
-    #userText = request.args.get('msg')
-    return str(bot.get_response("hi"))
-
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-if __name__ == '__main__':
-    app.run()
-
-"""

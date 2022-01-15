@@ -29,6 +29,16 @@ trainer.train([
 'There is a link available in the Nav bar',
 'Where is Chandan resume?',
 'There is a link available in the Nav bar',
+'What school did Chandan go to?',
+'Chandan completed his Undergrad at Western University and is working on his Masters at the same school.',
+'When is Chandan available for an interview?',
+'Chandan is typically busy between 8am and 5pm EST on business days, but can make time during the afternoon (typically 11am-12pm). Please contact Chandan for more information.',
+'What project is Chandan most proud of?',
+'Please take a look at some of the project links shown above and feel free to check out my Github.',
+'Where can I find a link to Chandans Github?',
+'Please check out the top of the page where an icon linking to my Github is available.',
+'Where can I find a link to Chandans LinkedIn?',
+'Please check out the top of the page where an icon linking to my LinkedIn is available.',
 'Okay Thanks',
 'No Problem! Have a Good Day!'
 ])
